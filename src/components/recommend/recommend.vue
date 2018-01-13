@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import Scroll from '@/base/scroll'
+  import Scroll from '@/base/scroll/scroll'
   import {getRecommend} from '@/api/recommend'
   import {ERR_OK} from '@/api/config'
   import Slider from '@/base/slider/slider'

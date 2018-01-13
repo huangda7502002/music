@@ -8,6 +8,7 @@ import 'babel-polyfill'
 import fastclick from 'fastclick'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import VueLazyload from 'vue-lazyload'
+import store from './store'
 
 fastclick.attach(document.body)
 Vue.config.productionTip = false
@@ -23,6 +24,7 @@ Vue.use(VueLazyload, {
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App }
 })
